@@ -1,5 +1,4 @@
 .container {
-    border: 3px solid yellow;
     width: 95vw;
     display: flex;
     justify-content: flex-end;
@@ -7,7 +6,17 @@
 }
 
 .header {
-    border: 3px solid red;
+    width: 100%;
+}
+
+.image {
+    position: absolute;
+    margin-right: 70px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
 }
 
 .title {
@@ -21,12 +30,14 @@
     display: flex;
     list-style-type: none;
     margin: 0;
+    height: 40px;
+    margin-top: 27px;
 }
 
 .nav-item {
     color: #999999;
-    font-size: 0.9rem;
-    margin-right: 1.3rem;
+    font-size: 1.2rem;
+    margin-right: 1.35rem;
     text-decoration: none;
 }
 
