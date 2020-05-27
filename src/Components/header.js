@@ -17,9 +17,13 @@ const Header = () => {
     `)
 
     return (
+        <div className={headerStyles.container}>
         <header className={headerStyles.header}>
             <nav>
                 <ul className={headerStyles.navList}>
+                    <li>
+                        <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/"><img alt="logo" src="../img/logo.jpeg" width="100"/></Link>
+                    </li>
                     <li>
                         <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/">Home</Link>
                     </li>
@@ -35,6 +39,7 @@ const Header = () => {
                 </ul>
             </nav>
         </header>
+        </div>
     )
 }
 
