@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.father {
+    display: flex;
+    width: 90vw;
+    position: absolute;
+    justify-content: space-between;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background-color: #999999;
+    border-radius: 5px;
+}
+
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    background-color: #555555;
+
+    img {
+        background-color: #555555;
+    }
+}
+
+img {
+    background-color: #999999;
+}
+
+
+@media (min-width: 600px) {
+    .father {
+        transform: translateX(-200%);
+    }
+}

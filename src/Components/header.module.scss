@@ -48,3 +48,9 @@
 .active-nav-item {
     color: #555555;
 }
+
+@media (max-width: 600px) {
+    .container {
+        transform: translateX(-300%);
+    }
+}

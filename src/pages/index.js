@@ -3,6 +3,7 @@ import { Link } from 'gatsby';
 
 import Layout from '../Components/layout';
 import Head from '../Components/head';
+import Menu from '../Components/menu';
 
 import indexStyles from './index.module.scss';
 
