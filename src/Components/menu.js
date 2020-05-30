@@ -10,7 +10,7 @@ const Menu = () => {
             <Link to="/">
                 <img src={logo} width="100" height="80" alt="My Pic" className={menuStyles.image}/>
             </Link>
-            <button className={menuStyles.container}><img src={bars}/></button>
+            <button className={menuStyles.container}>Menu</button>
         </div>
     )
 }
