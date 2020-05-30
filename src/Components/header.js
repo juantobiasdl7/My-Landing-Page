@@ -22,7 +22,7 @@ const Header = () => {
         <header className={headerStyles.header}>
             <nav className={headerStyles.menu}>
 
-                <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/">
+                <Link to="/">
                     <img src={logo} width="100" height="80" alt="My Pic" className={headerStyles.image}/>
                 </Link>
 
