@@ -54,12 +54,13 @@
         left: 50%;
         margin-left: -$size/2; //offset the bulb to center it perfectly
         border-radius: 50%;
-        transform: scale(.2);
-        transition: transform 10s cubic-bezier(0.610, 0.000, 0.405, 1.630);
+        transform: scale(.5);
+        transition: all 10s cubic-bezier(0.610, 0.000, 0.405, 1.630);
     }
 
     &:hover {
         color: #666666;
+        transform: scale(1) ;
     }
 }
 
@@ -69,7 +70,7 @@
     color: #555555;
 
     &:after{
-        transform: scale(1) ;
+        transform: scale(.8) ;
         //when the link is active lets scale upo that bulb!
     }
 }
